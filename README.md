@@ -3,7 +3,7 @@
 
 ---
 
-A simple bmiCalculator using HTML, CSS, and Javascript 
+A simple BMI Calculator using HTML, CSS, and Javascript 
 
 ---
 ## Tech Stack :
