@@ -1,0 +1,92 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.Wallpaper {
+    position: relative;
+    height: 100%;
+}
+
+.backgroundimage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bmi-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 80px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.bmi-box>h1{
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(181, 123, 52);    
+    margin-bottom: 50px;
+}
+.bmi-box>p{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(181, 123, 52);
+    font-size: large;
+}
+
+.bmi-box>input {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(181, 123, 52);
+    background-color: transparent;
+    border: 1px solid rgb(181, 123, 52);
+    padding: 8px;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.bmi-box>button {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 230, 200);
+    background-color:rgb(203, 153, 93);
+    border: 1px transparent;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 40px;
+    width: 100%;
+    font-size: large;
+
+}
+
+.bmi-box>button:hover {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 230, 200);
+    color: rgb(203, 153, 93);
+    border: 1px transparent;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 40px;
+    width: 100%;
+    font-size: large;
+
+}
+
+.bmi-box>div{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(181, 123, 52);
+    font-size: large;
+    margin-top: 40px;
+}
+
